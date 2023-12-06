@@ -7,3 +7,62 @@ html {
 .contact {
     font-size: 1px;
 }
+
+i {
+    font-size: 25px;
+}
+
+.about {
+    text-align: center;
+}
+
+img {
+    /* height: 700px; */
+}
+
+.nav-item:hover {
+    animation-name: underline;
+    animation-duration: 1s;
+    
+}
+
+    @keyframes underline {
+        10% {
+            border-bottom: 5px solid rgba(0, 0, 0, .1);  
+        }
+
+        20% {
+            border-bottom: 5px solid rgba(0, 0, 0, .2);
+        }
+
+        30% {
+            border-bottom: 5px solid rgba(0, 0, 0, .3);
+        }
+
+        40% {
+            border-bottom: 5px solid rgba(0, 0, 0, .4);
+        }
+
+        50% {
+           border-bottom: 5px solid rgba(0, 0, 0, .5);
+        }
+
+        60% {
+           border-bottom: 5px solid rgba(0, 0, 0, .6);
+        }
+
+        70% {
+           border-bottom: 5px solid rgba(0, 0, 0, .7);
+        }
+
+        80% {
+           border-bottom: 5px solid rgba(0, 0, 0, .8);
+        }
+
+        90% {
+           border-bottom: 5px solid rgba(0, 0, 0, .9);
+        }
+        100% {
+           border-bottom: 5px solid rgba(0, 0, 0, 1);
+        }
+    }
